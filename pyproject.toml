@@ -26,7 +26,7 @@ lint = "pyright twitter_api/** tests/** examples/**"
 
 [tool.poetry.dependencies]
 python = ">=3.9,<4.0"
-pydantic = "^1.10.7"
+pydantic = ">=1.10.7,<3.0.0"
 authlib = "^1.2.0"
 httpx = "^0.24.0"
 typing-extensions = "^4.5.0"
